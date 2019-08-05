@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>156432583599-0oqcouuodh2685a1o90ehpdji0f4mjaq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.156432583599-0oqcouuodh2685a1o90ehpdji0f4mjaq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkJlklnyDxqvGLlnI84jjUEy_cSMwTrBM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>156432583599</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Kotb.RNDM</string>
+	<key>PROJECT_ID</key>
+	<string>rndm-project</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rndm-project.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:156432583599:ios:75c0b1c1025709af</string>
+	<key>DATABASE_URL</key>
+	<string>https://rndm-project.firebaseio.com</string>
+</dict>
+</plist>
