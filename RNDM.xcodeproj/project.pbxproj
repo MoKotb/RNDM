@@ -3,25 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167028EA2582C09451CAF577 /* Pods_RNDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEE0EA6879D9B1F12C7FA45 /* Pods_RNDM.framework */; };
+		D12B5C2322F896DE00180864 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2222F896DE00180864 /* CreateAccountVC.swift */; };
+		D12B5C2522F8970C00180864 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2422F8970C00180864 /* MainVC.swift */; };
+		D12B5C2722F8976900180864 /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2622F8976900180864 /* AddThoughtVC.swift */; };
+		D12B5C2A22F897DB00180864 /* ThoughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2922F897DB00180864 /* ThoughtCell.swift */; };
+		D12B5C2D22F8980700180864 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2C22F8980700180864 /* RoundedButton.swift */; };
+		D12B5C3022F8984500180864 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C2F22F8984400180864 /* Thought.swift */; };
+		D12B5C3222F8986D00180864 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3122F8986D00180864 /* DataService.swift */; };
+		D12B5C3422F8988C00180864 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3322F8988C00180864 /* AuthService.swift */; };
+		D12B5C3622F8993900180864 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3522F8993900180864 /* Constants.swift */; };
+		D12B5C3822F8A2DD00180864 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3722F8A2DD00180864 /* InsetTextField.swift */; };
+		D12B5C3A22F8B5D200180864 /* InsetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3922F8B5D200180864 /* InsetTextView.swift */; };
 		D1469F8C22F7CECA009403F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1469F8B22F7CECA009403F5 /* AppDelegate.swift */; };
-		D1469F8E22F7CECA009403F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1469F8D22F7CECA009403F5 /* ViewController.swift */; };
+		D1469F8E22F7CECA009403F5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1469F8D22F7CECA009403F5 /* LoginVC.swift */; };
 		D1469F9122F7CECA009403F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1469F8F22F7CECA009403F5 /* Main.storyboard */; };
 		D1469F9322F7CED7009403F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1469F9222F7CED7009403F5 /* Assets.xcassets */; };
 		D1469F9622F7CED7009403F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1469F9422F7CED7009403F5 /* LaunchScreen.storyboard */; };
+		D1469FA222F7D16F009403F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1469FA122F7D16F009403F5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CEE0EA6879D9B1F12C7FA45 /* Pods_RNDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4852E414261F50446F43919F /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0796641F7ADC7C1FEE650F /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
+		D12B5C2222F896DE00180864 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		D12B5C2422F8970C00180864 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D12B5C2622F8976900180864 /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		D12B5C2922F897DB00180864 /* ThoughtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtCell.swift; sourceTree = "<group>"; };
+		D12B5C2C22F8980700180864 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		D12B5C2F22F8984400180864 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		D12B5C3122F8986D00180864 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D12B5C3322F8988C00180864 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D12B5C3522F8993900180864 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D12B5C3722F8A2DD00180864 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		D12B5C3922F8B5D200180864 /* InsetTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextView.swift; sourceTree = "<group>"; };
 		D1469F8822F7CECA009403F5 /* RNDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1469F8B22F7CECA009403F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1469F8D22F7CECA009403F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1469F8D22F7CECA009403F5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D1469F9022F7CECA009403F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1469F9222F7CED7009403F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1469F9522F7CED7009403F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1469F9722F7CED7009403F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1469FA122F7D16F009403F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167028EA2582C09451CAF577 /* Pods_RNDM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D09D99BA5298088B46AEE26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4852E414261F50446F43919F /* Pods-RNDM.debug.xcconfig */,
+				7B0796641F7ADC7C1FEE650F /* Pods-RNDM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D12B5C2822F8977C00180864 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C2922F897DB00180864 /* ThoughtCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D12B5C2B22F897EA00180864 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C2C22F8980700180864 /* RoundedButton.swift */,
+				D12B5C3722F8A2DD00180864 /* InsetTextField.swift */,
+				D12B5C3922F8B5D200180864 /* InsetTextView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D12B5C2E22F8981C00180864 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C3122F8986D00180864 /* DataService.swift */,
+				D12B5C3322F8988C00180864 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D1469F7F22F7CECA009403F5 = {
 			isa = PBXGroup;
 			children = (
 				D1469F8A22F7CECA009403F5 /* RNDM */,
 				D1469F8922F7CECA009403F5 /* Products */,
+				8D09D99BA5298088B46AEE26 /* Pods */,
+				ED551E7A0E47116A444E6D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,63 @@
 		D1469F8A22F7CECA009403F5 /* RNDM */ = {
 			isa = PBXGroup;
 			children = (
+				D1469FA022F7D04B009403F5 /* Utilities */,
+				D12B5C2E22F8981C00180864 /* Services */,
+				D1469F9F22F7D03F009403F5 /* Model */,
+				D1469F9E22F7D03A009403F5 /* View */,
+				D1469F9D22F7D02E009403F5 /* Controller */,
 				D1469F8B22F7CECA009403F5 /* AppDelegate.swift */,
-				D1469F8D22F7CECA009403F5 /* ViewController.swift */,
 				D1469F8F22F7CECA009403F5 /* Main.storyboard */,
 				D1469F9222F7CED7009403F5 /* Assets.xcassets */,
 				D1469F9422F7CED7009403F5 /* LaunchScreen.storyboard */,
 				D1469F9722F7CED7009403F5 /* Info.plist */,
+				D1469FA122F7D16F009403F5 /* GoogleService-Info.plist */,
 			);
 			path = RNDM;
+			sourceTree = "<group>";
+		};
+		D1469F9D22F7D02E009403F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1469F8D22F7CECA009403F5 /* LoginVC.swift */,
+				D12B5C2222F896DE00180864 /* CreateAccountVC.swift */,
+				D12B5C2422F8970C00180864 /* MainVC.swift */,
+				D12B5C2622F8976900180864 /* AddThoughtVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1469F9E22F7D03A009403F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C2B22F897EA00180864 /* UI */,
+				D12B5C2822F8977C00180864 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1469F9F22F7D03F009403F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C2F22F8984400180864 /* Thought.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1469FA022F7D04B009403F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5C3522F8993900180864 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ED551E7A0E47116A444E6D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CEE0EA6879D9B1F12C7FA45 /* Pods_RNDM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1469F9A22F7CED7009403F5 /* Build configuration list for PBXNativeTarget "RNDM" */;
 			buildPhases = (
+				8A3AD4D70337DD560FCEB3D9 /* [CP] Check Pods Manifest.lock */,
 				D1469F8422F7CECA009403F5 /* Sources */,
 				D1469F8522F7CECA009403F5 /* Frameworks */,
 				D1469F8622F7CECA009403F5 /* Resources */,
+				48BDD7287A46564638241C8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1469F9622F7CED7009403F5 /* LaunchScreen.storyboard in Resources */,
+				D1469FA222F7D16F009403F5 /* GoogleService-Info.plist in Resources */,
 				D1469F9322F7CED7009403F5 /* Assets.xcassets in Resources */,
 				D1469F9122F7CECA009403F5 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +249,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48BDD7287A46564638241C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3AD4D70337DD560FCEB3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1469F8422F7CECA009403F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1469F8E22F7CECA009403F5 /* ViewController.swift in Sources */,
+				D12B5C3222F8986D00180864 /* DataService.swift in Sources */,
+				D12B5C3622F8993900180864 /* Constants.swift in Sources */,
+				D12B5C3A22F8B5D200180864 /* InsetTextView.swift in Sources */,
+				D1469F8E22F7CECA009403F5 /* LoginVC.swift in Sources */,
+				D12B5C2522F8970C00180864 /* MainVC.swift in Sources */,
 				D1469F8C22F7CECA009403F5 /* AppDelegate.swift in Sources */,
+				D12B5C3022F8984500180864 /* Thought.swift in Sources */,
+				D12B5C2A22F897DB00180864 /* ThoughtCell.swift in Sources */,
+				D12B5C2D22F8980700180864 /* RoundedButton.swift in Sources */,
+				D12B5C3422F8988C00180864 /* AuthService.swift in Sources */,
+				D12B5C2722F8976900180864 /* AddThoughtVC.swift in Sources */,
+				D12B5C2322F896DE00180864 /* CreateAccountVC.swift in Sources */,
+				D12B5C3822F8A2DD00180864 /* InsetTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +448,13 @@
 		};
 		D1469F9B22F7CED7009403F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4852E414261F50446F43919F /* Pods-RNDM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KC7AXFA778;
 				INFOPLIST_FILE = RNDM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +462,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kotb.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D1469F9C22F7CED7009403F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0796641F7ADC7C1FEE650F /* Pods-RNDM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KC7AXFA778;
 				INFOPLIST_FILE = RNDM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kotb.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
