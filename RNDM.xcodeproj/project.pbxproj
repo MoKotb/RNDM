@@ -19,12 +19,19 @@
 		D12B5C3622F8993900180864 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3522F8993900180864 /* Constants.swift */; };
 		D12B5C3822F8A2DD00180864 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3722F8A2DD00180864 /* InsetTextField.swift */; };
 		D12B5C3A22F8B5D200180864 /* InsetTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3922F8B5D200180864 /* InsetTextView.swift */; };
+		D12B5C3D22F8BD9D00180864 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5C3C22F8BD9D00180864 /* UIViewControllerExtension.swift */; };
 		D1469F8C22F7CECA009403F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1469F8B22F7CECA009403F5 /* AppDelegate.swift */; };
 		D1469F8E22F7CECA009403F5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1469F8D22F7CECA009403F5 /* LoginVC.swift */; };
 		D1469F9122F7CECA009403F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1469F8F22F7CECA009403F5 /* Main.storyboard */; };
 		D1469F9322F7CED7009403F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1469F9222F7CED7009403F5 /* Assets.xcassets */; };
 		D1469F9622F7CED7009403F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1469F9422F7CED7009403F5 /* LaunchScreen.storyboard */; };
 		D1469FA222F7D16F009403F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1469FA122F7D16F009403F5 /* GoogleService-Info.plist */; };
+		D163E96022FAAD48003D4DCC /* CategoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163E95F22FAAD48003D4DCC /* CategoryType.swift */; };
+		D163E96222FC628C003D4DCC /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163E96122FC628C003D4DCC /* CommentsVC.swift */; };
+		D163E96422FC634C003D4DCC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163E96322FC634C003D4DCC /* CommentCell.swift */; };
+		D163E96622FC6B3C003D4DCC /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163E96522FC6B3C003D4DCC /* Comment.swift */; };
+		D163E96822FC8842003D4DCC /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163E96722FC8842003D4DCC /* KeyboardBoundView.swift */; };
+		D1FBADDF2302907E00FAEEF9 /* UpdateCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FBADDE2302907E00FAEEF9 /* UpdateCommentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,7 @@
 		D12B5C3522F8993900180864 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D12B5C3722F8A2DD00180864 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		D12B5C3922F8B5D200180864 /* InsetTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextView.swift; sourceTree = "<group>"; };
+		D12B5C3C22F8BD9D00180864 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		D1469F8822F7CECA009403F5 /* RNDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1469F8B22F7CECA009403F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1469F8D22F7CECA009403F5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -50,6 +58,12 @@
 		D1469F9522F7CED7009403F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1469F9722F7CED7009403F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1469FA122F7D16F009403F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D163E95F22FAAD48003D4DCC /* CategoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryType.swift; sourceTree = "<group>"; };
+		D163E96122FC628C003D4DCC /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		D163E96322FC634C003D4DCC /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		D163E96522FC6B3C003D4DCC /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D163E96722FC8842003D4DCC /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		D1FBADDE2302907E00FAEEF9 /* UpdateCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCommentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D12B5C2922F897DB00180864 /* ThoughtCell.swift */,
+				D163E96322FC634C003D4DCC /* CommentCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -98,6 +113,15 @@
 				D12B5C3322F8988C00180864 /* AuthService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		D12B5C3B22F8BD6000180864 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D163E96722FC8842003D4DCC /* KeyboardBoundView.swift */,
+				D12B5C3C22F8BD9D00180864 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D1469F7F22F7CECA009403F5 = {
@@ -123,6 +147,8 @@
 			children = (
 				D1469FA022F7D04B009403F5 /* Utilities */,
 				D12B5C2E22F8981C00180864 /* Services */,
+				D163E95E22FAACA1003D4DCC /* Enums */,
+				D12B5C3B22F8BD6000180864 /* Extensions */,
 				D1469F9F22F7D03F009403F5 /* Model */,
 				D1469F9E22F7D03A009403F5 /* View */,
 				D1469F9D22F7D02E009403F5 /* Controller */,
@@ -143,6 +169,8 @@
 				D12B5C2222F896DE00180864 /* CreateAccountVC.swift */,
 				D12B5C2422F8970C00180864 /* MainVC.swift */,
 				D12B5C2622F8976900180864 /* AddThoughtVC.swift */,
+				D163E96122FC628C003D4DCC /* CommentsVC.swift */,
+				D1FBADDE2302907E00FAEEF9 /* UpdateCommentVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				D12B5C2F22F8984400180864 /* Thought.swift */,
+				D163E96522FC6B3C003D4DCC /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +199,14 @@
 				D12B5C3522F8993900180864 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D163E95E22FAACA1003D4DCC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D163E95F22FAAD48003D4DCC /* CategoryType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		ED551E7A0E47116A444E6D8C /* Frameworks */ = {
@@ -296,15 +333,22 @@
 				D12B5C3622F8993900180864 /* Constants.swift in Sources */,
 				D12B5C3A22F8B5D200180864 /* InsetTextView.swift in Sources */,
 				D1469F8E22F7CECA009403F5 /* LoginVC.swift in Sources */,
+				D163E96822FC8842003D4DCC /* KeyboardBoundView.swift in Sources */,
 				D12B5C2522F8970C00180864 /* MainVC.swift in Sources */,
 				D1469F8C22F7CECA009403F5 /* AppDelegate.swift in Sources */,
 				D12B5C3022F8984500180864 /* Thought.swift in Sources */,
+				D163E96622FC6B3C003D4DCC /* Comment.swift in Sources */,
 				D12B5C2A22F897DB00180864 /* ThoughtCell.swift in Sources */,
+				D163E96022FAAD48003D4DCC /* CategoryType.swift in Sources */,
+				D163E96422FC634C003D4DCC /* CommentCell.swift in Sources */,
 				D12B5C2D22F8980700180864 /* RoundedButton.swift in Sources */,
+				D163E96222FC628C003D4DCC /* CommentsVC.swift in Sources */,
 				D12B5C3422F8988C00180864 /* AuthService.swift in Sources */,
 				D12B5C2722F8976900180864 /* AddThoughtVC.swift in Sources */,
 				D12B5C2322F896DE00180864 /* CreateAccountVC.swift in Sources */,
+				D12B5C3D22F8BD9D00180864 /* UIViewControllerExtension.swift in Sources */,
 				D12B5C3822F8A2DD00180864 /* InsetTextField.swift in Sources */,
+				D1FBADDF2302907E00FAEEF9 /* UpdateCommentVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -436,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

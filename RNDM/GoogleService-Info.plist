@@ -19,18 +19,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>rndm-project.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:156432583599:ios:75c0b1c1025709af</string>
 	<key>DATABASE_URL</key>
-	<string>https://rndm-project.firebaseio.com</string>
+	<string>https://rndm-project.firebaseio.com/</string>
 </dict>
 </plist>

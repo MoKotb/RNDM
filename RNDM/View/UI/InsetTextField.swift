@@ -3,13 +3,12 @@ import UIKit
 @IBDesignable
 class InsetTextField: UITextField {
 
-    var padding:UIEdgeInsets = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
-    
     @IBInspectable var placeholderColor:UIColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) {
         didSet{
             self.setNeedsLayout()
         }
     }
+    var padding:UIEdgeInsets = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
     
     override func awakeFromNib() {
         super.awakeFromNib()
