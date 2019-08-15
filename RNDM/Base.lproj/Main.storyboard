@@ -50,8 +50,8 @@
                                     <constraint firstAttribute="height" constant="100" id="bWc-q2-82E"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Nwe-eJ-JLd" userLabel="Buttons Stack View">
-                                <rect key="frame" x="57" y="240" width="300" height="140"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Nwe-eJ-JLd" userLabel="Buttons Stack View">
+                                <rect key="frame" x="57" y="240" width="300" height="320"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SO9-kz-0q7" userLabel="Login Button" customClass="RoundedButton" customModule="RNDM" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="46.5"/>
@@ -70,13 +70,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dk-Ew-pM0" userLabel="Create Account Text">
-                                        <rect key="frame" x="0.0" y="46.5" width="300" height="47"/>
+                                        <rect key="frame" x="0.0" y="54.5" width="300" height="47"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-hh-HBA" userLabel="Create Account Button" customClass="RoundedButton" customModule="RNDM" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="93.5" width="300" height="46.5"/>
+                                        <rect key="frame" x="0.0" y="109.5" width="300" height="46.5"/>
                                         <color key="backgroundColor" red="0.96078431369999995" green="0.50980392159999999" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Sign up">
@@ -91,9 +91,57 @@
                                             <action selector="onCreateAccountPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVf-IP-Ten"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzR-00-MOF" customClass="RoundedButton" customModule="RNDM" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="164" width="300" height="46.5"/>
+                                        <color key="backgroundColor" red="0.91764705882352937" green="0.2627450980392157" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Google Sign In">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="googleSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zem-4J-A61"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIJ-7v-cDB" customClass="RoundedButton" customModule="RNDM" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="218.5" width="300" height="47"/>
+                                        <color key="backgroundColor" red="0.25882352941176467" green="0.40392156862745099" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Facebook Sign In">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="facebookSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edR-nh-MU0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0a-kb-Q2x" customClass="RoundedButton" customModule="RNDM" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="273.5" width="300" height="46.5"/>
+                                        <color key="backgroundColor" red="0.24313725490196078" green="0.63137254901960782" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Twitter Sign In">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="twitterSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o95-SW-VoA"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="wIi-a9-pbF"/>
+                                    <constraint firstAttribute="height" constant="320" id="wIi-a9-pbF"/>
                                 </constraints>
                             </stackView>
                         </subviews>

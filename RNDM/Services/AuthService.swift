@@ -29,6 +29,17 @@ class AuthService {
         }
     }
     
+    func createNewUserWithSoical(user:User,completion:@escaping (_ status:Bool)->()){
+        let userData:[String:Any] = ["provider":user.providerID,"email":user.email ?? "","username":user.displayName ?? "","timestamp":FieldValue.serverTimestamp()]
+        DataService.instace.createNewUser(userID: user.uid, userData: userData, completion: { (success, error) in
+            if success {
+                completion(true)
+            }else{
+                completion(false)
+            }
+        })
+    }
+    
     func loginUser(email:String,password:String,completion:@escaping (_ status:Bool,_ error:Error?)->()){
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if let error = error{

@@ -1,4 +1,8 @@
 import UIKit
+import Firebase
+import GoogleSignIn
+import FBSDKLoginKit
+import TwitterKit
 
 class MainVC: UIViewController {
 
@@ -66,9 +70,36 @@ class MainVC: UIViewController {
     }
     
     @IBAction func logoutPressed(_ sender: Any) {
-        AuthService.instace.logoutUser { (success) in
-            if success {
-                self.prepareToLoginVC()
+        logoutFirebase()
+    }
+    
+    private func logoutFirebase(){
+        let firebaseAuth = Auth.auth()
+        do{
+            logoutSoical()
+            try firebaseAuth.signOut()
+            self.prepareToLoginVC()
+        }catch{
+            debugPrint("Erorr in \(String(describing: error))")
+        }
+    }
+    
+    private func logoutSoical(){
+        guard let user = Auth.auth().currentUser else { return }
+        for info in user.providerData {
+            switch info.providerID{
+                case GoogleAuthProviderID:
+                    GIDSignIn.sharedInstance().signOut()
+                    GIDSignIn.sharedInstance().disconnect()
+                case FacebookAuthProviderID:
+                    LoginManager().logOut()
+                case TwitterAuthProviderID:
+                    let store = TWTRTwitter.sharedInstance().sessionStore
+                    if let userID = store.session()?.userID {
+                        store.logOutUserID(userID)
+                    }
+                default:
+                    break
             }
         }
     }
